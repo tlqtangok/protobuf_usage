@@ -1,0 +1,47 @@
+// See README.txt for information and build instructions.
+//
+// Note: START and END tags are used in comments to define sections used in
+// tutorials.  They are not part of the syntax for Protocol Buffers.
+//
+// To get an in-depth walkthrough of this file and the related examples, see:
+// https://developers.google.com/protocol-buffers/docs/tutorials
+
+// [START declaration]
+syntax = "proto3";
+package jd;
+// [END declaration]
+
+// [START java_declaration]
+//option java_package = "www.jd.com";
+//option java_outer_classname = "java_outer_classname_jd";
+// [END java_declaration]
+
+// [START csharp_declaration]
+//option csharp_namespace = "csharp_namespace_jd";
+// [END csharp_declaration]
+
+
+
+//message mmm00 {
+//  int32 id_int32 = 2;  // Unique ID number for this person.
+
+//  message mmm000 {
+//    string id_string = 1;
+//  }
+
+//  repeated mmm000 id_mmm000 = 4;
+//}
+
+//message mmm0 {
+//  repeated mmm00 id_mmm00 = 1;
+//}
+
+
+message C {
+        repeated string s= 1;
+}
+message I {
+        repeated int32 i=1;
+}
+
+
