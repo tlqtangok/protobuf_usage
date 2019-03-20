@@ -3,7 +3,7 @@ set -e
 #./configure --prefix=`pwd`/bld
 #make install 
 
-export ROOT_PB=/home/bgi902/t/t/git/protobuf-3.7.0/bin
+export ROOT_PB=/home/bbb902/t/t/git/protobuf-3.7.0/bin
 export PATH=$ROOT_PB/bin:$PATH
 export  PKG_CONFIG_PATH=$ROOT_PB/lib/pkgconfig   # NEVER add anything more here !!!
 export LD_LIBRARY_PATH=$ROOT_PB/lib:$LD_LIBRARY_PATH
